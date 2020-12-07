@@ -1,1 +1,6 @@
-![fort] https://github.com/christianlopessouza/plantae-v1/blob/main/Untitled-1.png?raw=true
+![login](https://github.com/christianlopessouza/plantae-v1/blob/main/login.png?raw=true)
+![register](https://github.com/christianlopessouza/plantae-v1/blob/main/register.png?raw=true)
+![home](https://github.com/christianlopessouza/plantae-v1/blob/main/home.png?raw=true)
+![add](https://github.com/christianlopessouza/plantae-v1/blob/main/add.png?raw=true)
+![pageplant](https://github.com/christianlopessouza/plantae-v1/blob/main/pageplant.png?raw=true)
+![votes](https://github.com/christianlopessouza/plantae-v1/blob/main/votes.png?raw=true)
