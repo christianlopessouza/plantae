@@ -9,7 +9,8 @@
 ## About the Project
 Creating a social network web where people can share
 personal experiences about your plant and vegetable creations, helping
-the Botanical community to take care of their plants. On this site when you register, you can interact with other people who have the same crop as yours. You also have the option of telling your experiences to help others, thus making the site with the greatest amount of information possible and closest to reliable
+the Botanical community to take care of their plants. On this site when you register, you can interact with other people who have the same crop as yours. You also have the option of telling your experiences to help others, thus making the site with the greatest amount of information possible and closest to reliable.
+You can vote in the option that you think it is the most correct! you decide
 
 ## Technologies Used
 - PHP > Used to make the connection between the database with website, like 'login' and 'register' page
