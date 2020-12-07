@@ -1,0 +1,195 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.cadastro-bg {
+  background-color: #00CC5F;
+}
+
+.login-bg {
+  background-color: #f0f0f0;
+  background-image: url("https://i.imgur.com/WAECHxy.png");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: auto 70%;
+}
+
+.h100vh {
+  position: relative;
+  height: 100vh;
+}
+
+.login {
+}
+
+.login > h1::selection, h2::selection, h3::selection {
+  background-color: #000; 
+  color: #fff; 
+}
+
+.login > h1::selection, h2::selection, h3::-moz-selection { 
+  background-color: #000; 
+  color: #fff; 
+}
+
+.login > h2 {
+  font-family: 'Montserat', sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.login > h1 {
+  display:inline;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 3em;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.login > form > input {
+  display: block;
+  margin: 15px auto;
+  border: 0;
+  font-family: 'Montserat', sans-serif;
+  font-weight: 600;
+  color: #00CC5F;
+  border-radius: 50px;
+  font-size: 1em;
+  width: 90%;
+  max-width: 170px;
+  height: 35px;
+  padding: 7px 15px;
+  background-color: rgba(255,255,255,0.7)
+}
+
+.login > form > .submit {
+  display: block;
+  margin: 15px auto;
+  margin-bottom: 7px;
+  border: 0;
+  font-weight: 600;
+  border-radius: 50px;
+  font-size: 1em;
+  width: 90%;
+  max-width: 200px;
+  height: 50px;
+  color: #00CC5F;
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login > form > .submit:hover {
+  transform: scale(0.9);
+}
+
+.login > h3 {
+  font-family: 'Montserat', sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.login > h3 > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.login > h3 > a::selection {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+}
+
+.login > h3 > a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.login > form > input::-webkit-input-placeholder {
+  text-align: center;
+  background-color: rgb
+  color: #fff;
+  font-family: 'Montserat', sans-serif;
+  font-weight: 600;
+}
+
+.login > form > input::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+.banner {
+  height: 100vh;
+}
+
+.banner > h1 {
+  font-family: 'Helveltica', arial;
+  font-weight: bold;
+  font-size: 64px;
+  letter-spacing: -2px;
+  line-height: 60px;
+  margin: 50px;
+  margin-bottom: 0;
+  color: #000;
+  min-height: 20vh;
+}
+
+.banner > h1::selection, br::selection { 
+  color: #fff;
+  background-color: rgba(0, 213, 99, 0.295);
+}
+
+.banner > h1::-moz-selection, br::-moz-selection { 
+  color: #fff;
+  background-color: rgba(0, 213, 99, 0.7); 
+}
+
+/*https://i.imgur.com/VXVDm43.png*/
+
+.safari {
+}
+
+.safari > img{
+  float: right;
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+@media(max-width: 52em){
+  .h100vh {
+    position: relative;
+    height: 50vh;
+  }
+  .container {
+    position: absolute;
+    top: 0;
+    transform: translateY(0);
+  }
+  .login {
+    position: relative;
+    background-color: #00CC5F;
+    border: 20px solid #00CC5F;
+  }
+  .login-bg {
+    background-image: none;
+  }
+}

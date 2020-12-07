@@ -1,0 +1,128 @@
+body {
+  background-color: #00CC5F;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.cadastro-bg {
+  background-color: #00CC5F;
+}
+
+
+.login {
+}
+
+.login > h2 {
+  font-family: 'Montserat', sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.login > h1 {
+  display:inline;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 3em;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.login > form > input {
+  display: block;
+  margin: 15px auto;
+  border: 0;
+  font-family: 'Montserat', sans-serif;
+  font-weight: 600;
+  color: #00CC5F;
+  border-radius: 50px;
+  font-size: 1em;
+  width: 90%;
+  max-width: 170px;
+  height: 35px;
+  padding: 7px 15px;
+  background-color: rgba(255,255,255,0.7)
+}
+
+.login > form > .submit {
+  display: block;
+  margin: 15px auto;
+  margin-bottom: 7px;
+  border: 0;
+  font-weight: 600;
+  border-radius: 50px;
+  font-size: 1em;
+  width: 90%;
+  max-width: 200px;
+  height: 50px;
+  color: #00CC5F;
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login > form > .submit:hover {
+  transform: scale(0.9);
+}
+
+.login > h3 {
+  font-family: 'Montserat', sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.login > h3 > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.login > h3 > a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.login > form > input::-webkit-input-placeholder {
+  text-align: center;
+  color: #00CC5F;
+  font-family: 'Montserat', sans-serif;
+  font-weight: 600;
+}
+
+.login > form > input::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+.banner {
+  height: 100vh;
+}
+
+.banner > h1 {
+  font-family: 'Helveltica', arial;
+  font-weight: bold;
+  font-size: 64px;
+  letter-spacing: -2px;
+  line-height: 60px;
+  margin: 50px;
+  margin-bottom: 0;
+  color: #000;
+  height: 20vh;
+}
+
+.login > h1::selection, h2::selection, h3::selection, a::selection, br::selection { 
+  color: #fff;
+  background-color: #000;
+}
+
+.login > h1::-moz-selection, br::-moz-selection { 
+  color: #fff;
+  background-color: rgb(62, 255, 152); 
+}

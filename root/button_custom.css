@@ -1,0 +1,23 @@
+
+.post {
+	width: 30%;
+	margin: 10px auto;
+	border: 1px solid #cbcbcb;
+	padding: 5px 10px 0px 10px;
+}
+
+.hide {
+	display: none;
+}
+
+.fa-heart-o{
+	transform: rotateY(-180deg);
+	font-size: 2em;
+
+}
+
+.fa-heart  {
+	transform: rotateY(-180deg);
+	font-size: 2em;
+	color: red;
+}

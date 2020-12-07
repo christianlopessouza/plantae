@@ -1,0 +1,408 @@
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.barra {
+  position: fixed;
+  height: 100vh;
+  box-shadow: 0px 0px 8px 2px #efeeee;
+}
+
+@media (max-width: 51.99em) {
+  .barra {
+    position: relative;
+    height: auto;
+  }
+}
+
+p.title{
+    font-family: 'Comfortaa';
+    font-size: 20px;
+
+}
+
+
+
+.bg-modal {
+  width: 83.3%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  position: fixed;
+  top: 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+
+}
+
+.info{
+  font-family: 'Comfortaa';
+  padding: 50px;
+
+}
+
+.close{
+  transform: rotate(45deg);
+  font-size: 45px;
+  font-family: 'arial';
+  top: 0;
+  float: right;
+  margin-right: 30px;
+  cursor: pointer;
+
+}
+
+.modal-c{
+  width: 500px;
+  background-color: white;
+  border-radius: 4px; 
+  padding-top: 50px;
+  min-height: 300px;
+  max-height: 1000px;
+}
+
+.barra > .plantae {
+  width: 100%;
+  margin: 84px 0;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  font-size: 42px; 
+  letter-spacing: -2px;
+  line-height: 22px;
+  color: #999;
+}
+
+.barra > div > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.barra > div > ul > li {
+  font-family: 'Comfortaa', cursive;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.barra > div > ul > li > a:not(.active) {
+  margin-left: 7px;
+}
+
+.barra > div > ul > li a {
+  display: block;
+  color: #000;
+  padding: 20px 0;
+  text-decoration: none;
+}
+
+.barra > div > ul > li > a:hover {
+  color: #00CC5F;
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.barra > div > ul > li > .active {
+  margin-left: 0;
+  border-left: 7px solid #00CC5F;
+}
+
+.barra > div > ul > li > .descubra {
+  margin-bottom: 0px;
+}
+
+#menor{
+  font-size: 55px;
+}
+
+.menu > .titulo {
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  font-size: 72px; 
+  letter-spacing: -2px;
+  line-height: 60px;
+  margin: 60px 20px;
+  color: #00CC5F;
+  text-align: left;
+  width: calc(100% - 40px);
+}
+
+.menu > div > ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 20px;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.menu > div > ul > li {
+  float: left;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+}
+
+.menu > div > ul > li > a {
+  display: block;
+  text-align: center;
+  color: #999;
+  padding: 20px 10px;
+  margin-right: 20px;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.menu > div > ul > li > a:hover {
+  color: #333;
+  border-bottom: 5px solid #333;
+}
+
+.menu > div > ul > li > .active {
+  color: #333;
+  border-bottom: 5px solid #333;
+}
+
+.caixaplanta {
+  width: 91%;
+  margin: 25px  4.5%;
+  height: 550px;
+  border-radius: 7%;
+  background-color: blue;
+  background-size: cover;
+  background-position: center;
+}
+
+.progresso {
+  width: 91%;
+  margin: 0 4.5%;
+}
+
+.progresso > .text {
+  font-family: 'Comfortaa', cursive;
+  font-size: 26px;
+  margin: 30px 10px 10px;
+}
+
+.progresso > .numero {
+  font-family: 'Comfortaa', cursive;
+  font-size: 24px;
+  color: #00CC5F;
+  margin: 0 10px 10px;
+}
+
+.progresso > .numero > .num {
+  display: inline;
+  font-size: 42px;
+}
+
+.myvote{
+   font-family: 'Bitter', serif;
+    color: #00b558;
+    font-size: 19px;
+}
+
+.loshermanos{
+    color: #00b558;
+    font-family: 'Bitter', serif;
+
+}
+
+.votos {
+  font-family: 'Comfortaa', cursive;
+  font-size: 24px;
+  margin: 20px 0;
+
+    box-shadow: 0px 0px 8px 2px #efeeee;
+}
+
+.titulo2 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  font-size: 50px; 
+  letter-spacing: -2px;
+  line-height: 60px;
+  margin: 50px 20px 10px;
+  color: #00CC5F;
+  text-align: left;
+  width: calc(100% - 40px);
+}
+
+.subtitulo{
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  font-size: 32px; 
+  letter-spacing: -2px;
+  line-height: 60px;
+  margin: -50px 25px;
+  margin-bottom: 0px;
+  color: #a0ceb5;
+  text-align: left;
+  width: calc(100% - 40px);  
+}
+
+.progresso2 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 23px;
+  color: #000;
+  text-align: left;  
+  margin: 0 50px 10px;
+}
+
+
+.submit {
+  display: block;
+  margin: 0 10px 10px;
+  margin-bottom: 7px;
+  border: 0;
+  font-weight: 600;
+  border-radius: 50px;
+  font-size: 1em;
+  width: 90%;
+  max-width: 200px;
+  height: 50px;
+  color: #fff;
+  background-color: #00CC5F;
+  cursor: pointer;
+  transition: 0.3s;
+}
+  
+.votos{  
+    width: calc(23% - 40px);
+    padding: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 24px;
+    margin: 10px 1%;
+    border-radius: 25px;
+  }
+
+
+ i{
+ font-size: 20px;
+ color: #fff;
+
+ } 
+.submit2 {
+  margin: 0 10px 10px;
+  margin-bottom: 7px;
+  border: 0;
+  font-weight: 600;
+  border-radius: 50px;
+  font-size: 1em;
+  width: 90%;
+  max-width: 200px;
+  height: 50px;
+  color: #fff;
+  background-color: #00CC5F;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit3 {
+  display: block;
+  margin: 0 10px 10px;
+  margin-bottom: 7px;
+  border: 0;
+  font-weight: 600;
+  border-radius: 50px;
+  font-size: 1em;
+  width: 90%;
+  max-width: 200px;
+  height: 50px;
+  color: #fff;
+  background-color: #00CC5F;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit4 {
+  margin: 0 10px 10px;
+  margin-bottom: 7px;
+  border: 0;
+  font-weight: 600;
+  border-radius: 50px;
+  font-size: 1em;
+  width: 30%;
+  max-width: 200px;
+  height: 50px;
+  color: #fff;
+  font-family: 'Bitter', serif;
+  background-color: #00CC5F;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit5 {
+  margin-bottom: 7px;
+  border: 0;
+  font-weight: 600;
+  border-radius: 50px;
+  font-size: 1em;
+  width: 30%;
+  max-width: 200px;
+  height: 50px;
+  color: #fff;
+  font-family: 'Bitter', serif;
+  background-color: #f73a2d;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.forum > form {
+  margin-left: 20px;
+}
+
+.forum > form > textarea {
+  display: block;
+  border: 1px solid #333;
+  border-radius: 50px;
+  margin-top: 10px;
+  font-size: 1.5em;
+  color: #333;
+  padding: 26px;
+  background-color: #fff;
+  resize: none;
+}
+
+.forum > form > input {
+  display: block;
+  margin: 10px 0;
+  border: 0;
+  font-weight: 600;
+  border-radius: 50px;
+  font-size: 1em;
+  width: 90%;
+  max-width: 200px;
+  height: 50px;
+  color: #fff;
+  background-color: #00CC5F;
+  cursor: pointer;
+}
+
+.loscaipiras{
+      color: #000;
+    font-family: 'Bitter', serif;
+    box-shadow:0px 0px 8px 2px #efeeee;
+    background-color: #fff;
+}
+
+.forum > div {
+  width: calc(867px - 52px);
+  padding: 26px;
+  background-color: #f1f0f0;
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.forum > div > .nome {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.7em;
+  margin-bottom: 15px;
+}
+
+.forum > div > .post {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.3em;
+  margin-left: 10px;
+}
